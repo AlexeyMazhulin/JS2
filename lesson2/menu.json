@@ -1,0 +1,23 @@
+{
+   "menu_items" : [
+	   {"href" : "#", "title" : "Главная","class": "my_menu"},
+	   {"href" : "#", "title" : "Каталог","class": "my_menu"},
+	   {"href" : "#", "title" : "Корзина","class": "my_menu"},
+	   {"href" : "#", "title" : "Личный кабинет","class": "my_menu"},
+	   {"href" : "#", "title" :"Раздел1","class": "Каталог"},
+	   {"href" : "#", "title" : "Раздел2","class": "Каталог"},
+	   {"href" : "#", "title" : "Раздел3","class": "Каталог"},
+	   {"href" : "#", "title" : "группа1","class": "Раздел1"},
+	   {"href" : "#", "title" : "группа2","class": "Раздел1"},
+	   {"href" : "#", "title" : "группа3","class": "Раздел1"},
+	   {"href" : "#", "title" : "группа1","class": "Раздел2"},
+	   {"href" : "#", "title" : "группа2","class": "Раздел2"},
+	   {"href" : "#", "title" : "группа1","class": "Раздел3"},
+	   {"href" : "#", "title" : "группа2","class": "Раздел3"},
+	   {"href" : "#", "title" : "группа3","class": "Раздел3"},
+	   {"href" : "#", "title" : "группа4","class": "Раздел3"}
+	   
+   ]
+}
+
+
