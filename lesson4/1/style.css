@@ -1,0 +1,27 @@
+
+
+
+.label {
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 28px;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    display: inline;
+    background-color: green;
+}
+
+.checked{
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+}
+
+.text{
+    display: block;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 28px;
+    background: #fff;
+    width: 500px;
+}

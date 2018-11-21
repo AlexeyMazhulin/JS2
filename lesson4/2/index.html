@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+</head>
+<body>
+
+<div id="inline">
+	<h2>Написать кому то что то</h2>
+	<form id="contact" action="#" method="post" name="contact">
+	<input id="name" class="txt" name="name" type="text" placeholder="Ваше имя">
+	<input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"> 
+	<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
+	<input id="my_country" class="txt" name="country" type="text" placeholder="Выбрать страну" autocomplete="on">
+	<textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
+	<button id="send" type="button" OnClick="validation()">Отправить</button>
+	</form>
+</div>
+
+
+
+<script src="script.js"></script>	
+</body>
+</html>
