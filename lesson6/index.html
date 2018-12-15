@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style\style.css">
+	<link rel="stylesheet" href="jquery-ui-1.12.1\jquery-ui.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="modal">
+			<div class="modal_window">
+				<div class="close">
+					X
+				</div>
+			</div>
+		</div>
+
+		<div id="sliderBox" class="slider">
+			<div class="slider"><img src="images\1.jpg" alt=""></div>
+			<div class="slider"><img src="images\2.jpg" alt=""></div>
+			<div class="slider"><img src="images\3.jpg" alt=""></div>
+			<div class="slider"><img src="images\4.jpg" alt=""></div>
+			<div class="slider"><img src="images\5.jpg" alt=""></div>
+			<div class="slider"><img src="images\6.jpg" alt=""></div>
+			<div class="slider"><img src="images\7.jpg" alt=""></div>
+			<div class="slider"><img src="images\8.jpg" alt=""></div>
+			<div class="slider"><img src="images\9.jpg" alt=""></div>
+			<div class="slider"><img src="images\10.jpg" alt=""></div>
+			<div class="slider"><img src="images\11.jpg" alt=""></div>
+			<div class="slider"><img src="images\12.jpg" alt=""></div>
+		</div>
+<div id="my_slider"></div>
+		
+
+		<div id="basketImg" class="basketImg"><img src="images\13.jpg" alt=""></div>
+
+		<div class="basket"> </div>
+
+		<div class="content"></div>
+
+		<div class="comment">
+			<h2 class="comment">Comments</h2>
+		</div>
+
+		<div id="dialogName" class="dial" title="Неправильно указано имя">
+			<p>Имя должно содержать только буквы</p>
+		</div>
+
+		<div id="dialogPhone" class="dial" title="Неправильно указан телефон">
+			<p>телефон должен быть в формате +7(000)000-0000</p>
+		</div>
+
+		<div id="dialogMail" class="dial" title="Неправильно указана почта">
+			<p>почта должна быть в формате my_mail@mail.ru</p>
+		</div>
+
+		<h2>Написать кому то что то</h2>
+		<form id="contact" action="#" method="post" name="contact">
+			<input id="name" class="txt" name="name" type="text" placeholder="Ваше имя">
+			<input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон">
+			<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail">
+			<input id="my_country" class="txt" name="country" type="text" placeholder="Выбрать страну" autocomplete="on">
+			<input id="date" class="txt" type="text" placeholder="Дата рождения">
+			<textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
+			<button id="send" type="button" OnClick="validation()">Отправить</button>
+		</form>
+
+
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="jquery-ui-1.12.1\jquery-ui.js"></script>
+	<script src="js\script1.js"></script>
+	<script src="js\script2.js"></script>
+	<script src="js\script3.js"></script>
+
+</body>
+
+</html>
